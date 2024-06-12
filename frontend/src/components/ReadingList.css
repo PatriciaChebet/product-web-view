@@ -1,0 +1,16 @@
+.modal-alert {
+  color: warning;
+}
+@keyframes FadeAnimation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.animate {
+  animation: FadeAnimation 4s ease-in 0.1s forwards;
+}
